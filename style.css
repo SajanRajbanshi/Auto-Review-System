@@ -3,6 +3,10 @@
     --forground:rgb(236, 236, 236);
     --fontcolor:white;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 body{
     background-color:white;
 }
