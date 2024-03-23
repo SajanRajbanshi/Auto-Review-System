@@ -1,0 +1,90 @@
+:root{
+    --bgcolor:beige;
+}
+body{
+    background-color: lilac;
+}
+.heading{
+    font-size: 3vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+    background-color: beige;
+    border-radius: 10px;
+}
+.bannericons{
+    display: flex;
+}
+.left
+{
+    margin-left: 10px;
+    width: 50vw;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    width: 50vw;
+}
+.profile
+{
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 3vw;
+    height: 3vw;
+}
+.settings{
+    width: 3vw;
+    height: 3vw;
+}
+.container{
+    margin-top:10px;
+    display: block;
+    width: 100%;
+}
+.graphs
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.maingraph{
+    width: 50vw;
+    height: 50vw;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.mediastats{
+}
+.statcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    height: 50vw;
+}
+.stats{
+    width: 20vw;
+    height: 20vw;
+    background-color: pink;
+    border-radius: 10px;
+}
+.bestperforminglist{
+    margin-top: 10px;
+    width: 100%;
+    height: 50vw;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.footer{
+    margin-top: 10px;
+    background-color: orange;
+    height: 8vw;
+    border-radius: 10px;
+}
